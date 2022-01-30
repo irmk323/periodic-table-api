@@ -53,10 +53,10 @@ https://github.com/irmk323/periodic-table-api
 
 For Objective 1. 
 
-1:Select PeriodicTableApiApplication.java under src/main/java/com/example/periodictableapi/PeriodicTableApiApplication.java
-2:Right click on the file and select "Run as" and "Java application".
-3:Open browser.   
-4:Enter http://localhost:8080/all_list in the browser.
+1:Select PeriodicTableApiApplication.java under src/main/java/com/example/periodictableapi/PeriodicTableApiApplication.java.  
+2:Right click on the file and select "Run as" and "Java application".   
+3:Open browser.     
+4:Enter http://localhost:8080/all_list in the browser.  
 
 recommend to use chrome with extensions like JSONVue
 
