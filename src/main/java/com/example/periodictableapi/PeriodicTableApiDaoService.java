@@ -146,11 +146,6 @@ public class PeriodicTableApiDaoService {
 		}
 		private HashMap<String, Object> discovererParser(String discovery) {
 			HashMap<String, Object> discoverer_year = new HashMap<String, Object>();
-//			case patterns
-//			"discovery": "Carl Wilhelm Scheele (1778)",
-//			 "discovery": "n/a",
-//			"discovery": "before 5000 BC",
-//			 "discovery": "Martin Heinrich Klaproth, Jöns Jakob Berzelius, Wilhelm Hisinger (1803)",
 			
 			if(discovery.equals(NA)) {
 				discoverer_year.put("discoverers", "");
