@@ -7,7 +7,7 @@ In addition:
     - Once live, the data is expected to receive periodic minor updates
     - The application won't be tested for scaling
     
-The application must be written in Java, but you may use whichever service and cloud provider you feel is most appropriate to deploy the solution. 
+The application must be written in Java
 
 ## Objective 1
 
