@@ -62,7 +62,7 @@ recommend to use chrome with extensions like JSONVue
 
 For Objective 2.  
 
-1-3 is the same as Objective 1.
+1-3 is the same as Objective 1.   
 4:Enter http://localhost:8080/group/2 in the browser for example. You can replace and type a number after group/ 
 
 For Objective 3  
