@@ -17,8 +17,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class PeriodicTableApiDaoService {
 	
 	    public static final String NA = "n/a";
-		String clsPath =  "./src/main/resources/json/periodic_table.json";
-		File json = new File(clsPath);	
+		String classPath =  "./src/main/resources/json/periodic_table.json";
+		File json = new File(classPath);	
 		
 		public List<HashMap<String, String>> findAll(){
 			ObjectMapper mapper = new ObjectMapper();

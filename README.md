@@ -85,3 +85,8 @@ An error will occur in the following cases.
  - Invalid period (ex: http://localhost:8080/period/9999)  
  - Invalid atomic_number  (ex: http://localhost:8080/individual/9999)   
 
+## Concerns
+ - Assumed json type ... file or URL or something else? 
+ - Json would be stored in DB? it depends on how often or how to update json
+ - Response data type ... for example discovery_year should be Integer or String? 
+   it depends on how to use the API.

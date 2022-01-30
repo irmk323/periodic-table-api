@@ -23,29 +23,29 @@ public class PeriodicTableApiController {
 	
 	@GetMapping(path = "/group/{number}")
 	public List<PeriodicTable> group(@PathVariable String number) {
-		List<PeriodicTable> pt = service.findByGroup(number);
-		if(pt.size()==0) {
+		List<PeriodicTable> periodicTable = service.findByGroup(number);
+		if(periodicTable.size()==0) {
 			throw new InputNotFoundException("there is no such group number = : " + number);
 		}
-		return pt;
+		return periodicTable;
 	}
 	
 	@GetMapping(path = "/period/{period}")
 	public List<PeriodicTable> period(@PathVariable String period) {
-		List<PeriodicTable> pt = service.findByPeriod(period);
-		if(pt.size()==0) {
+		List<PeriodicTable> periodicTable = service.findByPeriod(period);
+		if(periodicTable.size()==0) {
 			throw new InputNotFoundException("there is no such period = : " + period);
 		}
-		return pt;
+		return periodicTable;
 	}
 	
 	@GetMapping(path = "/individual/{atomic_number}")
 	public List<HashMap<String, Object>> individual(@PathVariable String atomic_number) {
-		List<HashMap<String, Object>> pt = service.findByIndividual(atomic_number);
-		if(pt.size()==0) {
+		List<HashMap<String, Object>> periodicTable = service.findByIndividual(atomic_number);
+		if(periodicTable.size()==0) {
 			throw new InputNotFoundException("there is no such atomic_number = : " + atomic_number);
 		}
-		return pt;
+		return periodicTable;
 	}
 
 }
